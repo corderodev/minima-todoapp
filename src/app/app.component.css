@@ -1,0 +1,33 @@
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  padding-top: 1rem;
+}
+
+li {
+  list-style: none;
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 0.25rem;
+  padding: 0.5rem 1rem;
+}
+
+li button {
+  border: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+
+.done {
+  text-decoration: line-through;
+}
